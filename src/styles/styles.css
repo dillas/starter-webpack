@@ -1,0 +1,33 @@
+@import "~normalize.css";
+@import "./IBMPlexSans.css";
+
+body {
+    font-family: 'IBMPlexRegular', sans-serif;
+}
+
+.container {
+    padding-top: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.light-font {
+    font-family: 'IBMPlexLight', sans-serif;
+}
+
+.logo {
+    background-image: url("../assets/stop.png");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.code {
+    color: crimson;
+}
